@@ -677,7 +677,7 @@ export default function Authenticated({
                 </div>
                 <div className="nav-header">
                     <div className="brand-logo">
-                        <ApplicationLogo className="mt-3" width="100px" />
+                        <ApplicationLogo className="mt-3" width="50px" />
                     </div>
                     <div className="nav-control">
                         <div className="hamburger">

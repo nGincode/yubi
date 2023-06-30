@@ -1,6 +1,6 @@
 {
   "resources/js/app.jsx": {
-    "file": "assets/app.0e4dd774.js",
+    "file": "assets/app.c80ce545.js",
     "src": "resources/js/app.jsx",
     "isEntry": true,
     "dynamicImports": [
@@ -14,6 +14,7 @@
       "resources/js/Pages/Auth/Register.jsx",
       "resources/js/Pages/Auth/ResetPassword.jsx",
       "resources/js/Pages/Auth/VerifyEmail.jsx",
+      "resources/js/Pages/Dashboard.jsx",
       "resources/js/Pages/Home.jsx"
     ],
     "css": [
@@ -21,161 +22,180 @@
     ]
   },
   "resources/js/Pages/AccountsContact.jsx": {
-    "file": "assets/AccountsContact.0eeb4f56.js",
+    "file": "assets/AccountsContact.39ab0e07.js",
     "src": "resources/js/Pages/AccountsContact.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_PermissionData.6cba3e2d.js",
-      "_Button.f2d444e5.js",
-      "_Input.fc52971b.js"
+      "_PermissionData.9c7a1b6d.js",
+      "_DataTables.6ea16c13.js",
+      "_Button.701a07ed.js",
+      "_Input.9812c49a.js"
     ]
   },
-  "_PermissionData.6cba3e2d.js": {
-    "file": "assets/PermissionData.6cba3e2d.js",
+  "_PermissionData.9c7a1b6d.js": {
+    "file": "assets/PermissionData.9c7a1b6d.js",
     "imports": [
-      "resources/js/app.jsx",
-      "_Button.f2d444e5.js",
-      "_Input.fc52971b.js"
+      "resources/js/app.jsx"
     ],
     "css": [
       "assets/PermissionData.ac5c6ebd.css"
     ]
   },
-  "_Button.f2d444e5.js": {
-    "file": "assets/Button.f2d444e5.js",
+  "_DataTables.6ea16c13.js": {
+    "file": "assets/DataTables.6ea16c13.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_Button.701a07ed.js",
+      "_Input.9812c49a.js"
+    ]
+  },
+  "_Button.701a07ed.js": {
+    "file": "assets/Button.701a07ed.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_Input.fc52971b.js": {
-    "file": "assets/Input.fc52971b.js",
+  "_Input.9812c49a.js": {
+    "file": "assets/Input.9812c49a.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
   "resources/js/Pages/AccountsGroups.jsx": {
-    "file": "assets/AccountsGroups.4439cb45.js",
+    "file": "assets/AccountsGroups.8ca28a82.js",
     "src": "resources/js/Pages/AccountsGroups.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_PermissionData.6cba3e2d.js",
-      "_Button.f2d444e5.js",
-      "_Input.fc52971b.js"
+      "_PermissionData.9c7a1b6d.js",
+      "_DataTables.6ea16c13.js",
+      "_Button.701a07ed.js",
+      "_Input.9812c49a.js"
     ]
   },
   "resources/js/Pages/AccountsStore.jsx": {
-    "file": "assets/AccountsStore.2eb92ad1.js",
+    "file": "assets/AccountsStore.6b3d1be6.js",
     "src": "resources/js/Pages/AccountsStore.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_PermissionData.6cba3e2d.js",
-      "_Button.f2d444e5.js",
-      "_Input.fc52971b.js"
+      "_PermissionData.9c7a1b6d.js",
+      "_DataTables.6ea16c13.js",
+      "_Button.701a07ed.js",
+      "_Input.9812c49a.js"
     ]
   },
   "resources/js/Pages/AccountsUsers.jsx": {
-    "file": "assets/AccountsUsers.636bbbeb.js",
+    "file": "assets/AccountsUsers.601de8b4.js",
     "src": "resources/js/Pages/AccountsUsers.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_PermissionData.6cba3e2d.js",
-      "_Button.f2d444e5.js",
-      "_Input.fc52971b.js"
+      "_PermissionData.9c7a1b6d.js",
+      "_DataTables.6ea16c13.js",
+      "_Button.701a07ed.js",
+      "_Input.9812c49a.js"
     ]
   },
   "resources/js/Pages/Auth/ConfirmPassword.jsx": {
-    "file": "assets/ConfirmPassword.1e244b33.js",
+    "file": "assets/ConfirmPassword.ac02d074.js",
     "src": "resources/js/Pages/Auth/ConfirmPassword.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_Button.f2d444e5.js",
-      "_Guest.8a8636fb.js",
-      "_Input.fc52971b.js",
-      "_Label.50ec821d.js"
+      "_Button.701a07ed.js",
+      "_Guest.c07678f8.js",
+      "_Input.9812c49a.js",
+      "_Label.f057ff72.js"
     ]
   },
-  "_Guest.8a8636fb.js": {
-    "file": "assets/Guest.8a8636fb.js",
+  "_Guest.c07678f8.js": {
+    "file": "assets/Guest.c07678f8.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_Label.50ec821d.js": {
-    "file": "assets/Label.50ec821d.js",
+  "_Label.f057ff72.js": {
+    "file": "assets/Label.f057ff72.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
   "resources/js/Pages/Auth/ForgotPassword.jsx": {
-    "file": "assets/ForgotPassword.6cdeedd2.js",
+    "file": "assets/ForgotPassword.03115df5.js",
     "src": "resources/js/Pages/Auth/ForgotPassword.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_Button.f2d444e5.js",
-      "_Guest.8a8636fb.js",
-      "_Input.fc52971b.js",
-      "_Label.50ec821d.js"
+      "_Button.701a07ed.js",
+      "_Guest.c07678f8.js",
+      "_Input.9812c49a.js",
+      "_Label.f057ff72.js"
     ]
   },
   "resources/js/Pages/Auth/Login.jsx": {
-    "file": "assets/Login.62509adc.js",
+    "file": "assets/Login.a6ffc8fd.js",
     "src": "resources/js/Pages/Auth/Login.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_Button.f2d444e5.js",
-      "_Guest.8a8636fb.js",
-      "_Input.fc52971b.js",
-      "_Label.50ec821d.js"
+      "_Button.701a07ed.js",
+      "_Guest.c07678f8.js",
+      "_Input.9812c49a.js",
+      "_Label.f057ff72.js"
     ]
   },
   "resources/js/Pages/Auth/Register.jsx": {
-    "file": "assets/Register.372b1445.js",
+    "file": "assets/Register.f4301900.js",
     "src": "resources/js/Pages/Auth/Register.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_Button.f2d444e5.js",
-      "_Guest.8a8636fb.js",
-      "_Input.fc52971b.js",
-      "_Label.50ec821d.js"
+      "_Button.701a07ed.js",
+      "_Guest.c07678f8.js",
+      "_Input.9812c49a.js",
+      "_Label.f057ff72.js"
     ]
   },
   "resources/js/Pages/Auth/ResetPassword.jsx": {
-    "file": "assets/ResetPassword.81adb888.js",
+    "file": "assets/ResetPassword.95299f08.js",
     "src": "resources/js/Pages/Auth/ResetPassword.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_Button.f2d444e5.js",
-      "_Guest.8a8636fb.js",
-      "_Input.fc52971b.js",
-      "_Label.50ec821d.js"
+      "_Button.701a07ed.js",
+      "_Guest.c07678f8.js",
+      "_Input.9812c49a.js",
+      "_Label.f057ff72.js"
     ]
   },
   "resources/js/Pages/Auth/VerifyEmail.jsx": {
-    "file": "assets/VerifyEmail.531be827.js",
+    "file": "assets/VerifyEmail.70370ce8.js",
     "src": "resources/js/Pages/Auth/VerifyEmail.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_Button.f2d444e5.js",
-      "_Guest.8a8636fb.js"
+      "_Button.701a07ed.js",
+      "_Guest.c07678f8.js"
+    ]
+  },
+  "resources/js/Pages/Dashboard.jsx": {
+    "file": "assets/Dashboard.a043f0ca.js",
+    "src": "resources/js/Pages/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_PermissionData.9c7a1b6d.js"
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home.533ce2a6.js",
+    "file": "assets/Home.5da3e1ee.js",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_Guest.8a8636fb.js"
+      "_Guest.c07678f8.js"
     ]
   },
   "PermissionData.css": {

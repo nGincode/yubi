@@ -37,7 +37,7 @@ export default function ForgotPassword({ status }) {
                                                 <Link href="/">
                                                     <center>
                                                         <img
-                                                            src="/assets/logo/prs.png"
+                                                            src="/assets/logo/yubi.png"
                                                             alt=""
                                                             width="150px"
                                                             className="img-fluid"

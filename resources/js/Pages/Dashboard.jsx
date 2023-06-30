@@ -87,8 +87,14 @@ export default function Dashboard(props) {
                                                 <>Name : {props.contact.name}</>
                                             ) : (
                                                 <>
-                                                    {props.groups &&
-                                                        "! Contact tidak terhubung, Silahkanlengkapi data contact di Accounts->Contact  <br />"}
+                                                    {props.groups && (
+                                                        <>
+                                                            {
+                                                                "! Contact tidak terhubung, Silahkan lengkapi data contact di Accounts->Contact"
+                                                            }{" "}
+                                                            <br />
+                                                        </>
+                                                    )}
                                                 </>
                                             )}
                                             {props.groups
