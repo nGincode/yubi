@@ -1,0 +1,1 @@
+import{a as r}from"./app.0e4dd774.js";function i({type:s="submit",className:a="",processing:t,children:e,active:n}){return r("button",{type:s,className:a,disabled:t||n,children:t?r("div",{className:"spinner-border",role:"status"}):e})}export{i as B};

@@ -1,0 +1,292 @@
+input {
+    caret-color: red;
+}
+
+
+
+/* MOUSE CURSOR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5bcfc5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5bcfc5;
+}
+
+/*===========================*/
+
+
+
+
+/* Datatables */
+#DataTables_paginate {
+    margin-top: 10px;
+}
+
+table.dataTable tr.selected {
+    color: unset;
+}
+
+
+.table> :not(:last-child)> :last-child>* {
+    border-bottom-color: whitesmoke
+}
+
+/*===========================*/
+
+
+/* Form */
+a {
+    cursor: pointer;
+}
+
+svg {
+    display: unset;
+}
+
+.mm-active {
+    transition: 0.3s;
+}
+
+.form-control {
+    border-color: darkgrey;
+}
+
+[type='text']:focus,
+[type='email']:focus,
+[type='url']:focus,
+[type='password']:focus,
+[type='number']:focus,
+[type='date']:focus,
+[type='datetime-local']:focus,
+[type='month']:focus,
+[type='search']:focus,
+[type='tel']:focus,
+[type='time']:focus,
+[type='week']:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+    box-shadow: none;
+}
+
+
+
+.select:hover,
+.select:active {
+    border-color: #5bcfc5;
+}
+
+[type='checkbox']:checked:hover,
+[type='checkbox']:checked:focus,
+[type='checkbox']:checked:active,
+[type='radio']:checked:hover,
+[type='radio']:checked:active,
+[type='radio']:checked:focus {
+    background-color: #5bcfc5;
+}
+
+select {
+    min-width: 60px;
+}
+
+
+.form-control[type="file"]:not(:disabled):not([readonly]) {
+    border: unset;
+    padding: 10px;
+}
+
+.form-control.is-invalid {
+    border: #f72b50 1px solid !important;
+}
+
+.form-control.is-valid {
+    border: #68e365 1px solid !important;
+}
+
+/*===========================*/
+
+
+
+
+
+/* Menus */
+.metismenu>li {
+    margin: 3px 0px;
+}
+
+.m-active {
+    color: var(--primary);
+    font-weight: 400;
+    box-shadow: none;
+    background: var(--rgba-primary-1);
+}
+
+/*===========================*/
+
+
+
+
+
+#html5-qrcode-button-camera-start {
+    padding: 0.625rem 1rem;
+    font-size: 0.813rem;
+    border-radius: 1.125rem;
+    font-weight: 400;
+    color: white;
+    background-color: #68e365;
+    border-color: #68e365;
+    margin: 10px;
+}
+
+#html5-qrcode-button-camera-stop {
+    padding: 0.625rem 1rem;
+    font-size: 0.813rem;
+    border-radius: 1.125rem;
+    font-weight: 400;
+    color: white;
+    background-color: #68e365;
+    border-color: #68e365;
+    margin: 10px;
+}
+
+img {
+    display: unset;
+}
+
+video {
+    border-radius: 40px 40px 0px 0px;
+}
+
+#qr-shaded-region {
+    border-radius: 40px 40px 0px 0px;
+}
+
+#qr-reader {
+    background-color: silver;
+    border: unset;
+}
+
+.imgManage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.table-freeze {
+    height: 80vh;
+    overflow: auto;
+    scroll-snap-type: both mandatory;
+    white-space: nowrap;
+}
+
+.table-freeze-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.table-freeze-th, .table-freeze-td {
+    padding: 1rem 2.5rem;
+    text-align: left;
+}
+
+.table-freeze-thead .table-freeze-th {
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+    top: 0;
+    z-index: 1;
+}
+
+.table-freeze-th.tp {
+    background-color: #fff;
+    z-index: 1;
+}
+
+.table-freeze-tbody .table-freeze-th {
+    left: 0;
+    text-align: left;
+}
+
+.table-freeze-tbody .table-freeze-th, .table-freeze-th.tp {
+    border-right: 1px solid #ccc;
+    z-index: 1;
+}
+
+.table-freeze-tr {
+    padding: 0;
+}
+
+.table-freeze-td {
+    color: #555;
+    vertical-align: top;
+}
+
+.table-freeze-tbody .table-freeze-tr:nth-child(odd) .table-freeze-th {
+    background-color: #fff;
+}
+
+.table-freeze-thead .table-freeze-th, .table-freeze-tbody .table-freeze-tr:nth-child(even) .table-freeze-th, .table-freeze-tr:nth-child(even) .table-freeze-td {
+    background-color: #f4f4f4;
+    /* striped background color */
+}
+
+.table-freeze-thead .table-freeze-th, .table-freeze-tbody .table-freeze-th {
+    position: sticky;
+    -webkit-position: sticky;
+}
+
+@media screen and (max-width: 680px) {
+    .table-freeze {
+        height: 70vh
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .table-freeze {
+        height: 60vh
+    }
+}
+
+
+
+
+.dropzone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #eeeeee;
+    border-style: dashed;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    outline: none;
+    transition: border .24s ease-in-out;
+}
+
+.storeHPActive{
+    display:none;
+}
+@media (max-width: 1200px) {
+.storeHPActive{
+    display:unset;
+}
+}
