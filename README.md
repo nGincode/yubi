@@ -35,13 +35,13 @@ node -v && npm -v
 git clone https://github.com/nGincode/yubi.git
 ```
 
-3. lalu masuk ke folder aplikasi dengan di terminal
+3. Lalu masuk ke folder aplikasi dengan di terminal
 
 ```bash
 cd /yubi
 ```
 
-4. aplikasi berhasil didownload
+4. Aplikasi berhasil didownload
 
 ## Create Database
 
@@ -63,17 +63,17 @@ DB_PASSWORD=
 php artisan migrate:fresh --seed
 ```
 
-4. pada --seed untuk memasukan dummy data seperti akun super admin
+4. Pada --seed untuk memasukan dummy data seperti akun super admin
 
 ## Run App
 
-1. pastikan anda berada di dalam folder app. ketikan perinta di terminal
+1. Pastikan anda berada di dalam folder app. ketikan perinta di terminal
 
 ```bash
 php artisan serve
 ```
 
-2. buka browser di http://localhost:8000
+2. Buka browser di http://localhost:8000
    info : npm run dev (development) jika anda ingin mengubah atau jika telah selesai di ubah npm run build untuk file js
 
 # Penggunaan Aplikasi
@@ -144,7 +144,7 @@ php artisan serve
 
 5. Pada data display memungkinkan fungsi untuk menampilkan data secara private/akun sendiri, division, store atau keseluruhan
 
-6. Setelah disimpan, maka terdapat menu baru sesuai izin yg dipilih, dan bisa melakukan sesai yg di pilih
+6. Setelah disimpan, maka terdapat menu baru sesuai izin yg dipilih, dan bisa melakukan sesuai yang di pilih
 
     ![dashcont](public/tutorial/dashcont.png)
 
@@ -152,7 +152,7 @@ php artisan serve
 
     ![contact](public/tutorial/contact.png)
 
-8. setelah disimpan maka akun berhasil di buat dengan sempurna
+8. Setelah disimpan maka akun berhasil di buat dengan sempurna
 
     ![success](public/tutorial/success.png)
 
@@ -188,7 +188,7 @@ Store merupakan nama perusahaan
 
 Anda dapat membuat akun tanpa melalui proses verif email
 
-## Semua proses memiliki Edit dan Hapus yang terlatak di bawah form input setiap menu dan pada kolom action
+## Semua proses memiliki Edit dan Hapus yang terlatak di bawah form input setiap menu pada kolom action
 
 ![updategroups](public/tutorial/updategroups.png)
 
@@ -196,7 +196,45 @@ Anda dapat membuat akun tanpa melalui proses verif email
 
 1. Anda harus register dan buat akun dan telah login
 2. Akses url http://localhost:8000/mytoken
-3. Copy token tersebut, Token tersebut merupakan Barear token yng di dugakan untuk akses data API External
+3. Copy token tersebut, Token tersebut merupakan Barear token yang di gunakan untuk akses data API External
 4. Contoh url http://localhost:8000/api/users/all Method POST. Dapat menggunakan postman
 
 ![postman](public/tutorial/postman.png)
+
+## My history
+
+1. Piepaid POS (CI4)
+
+![pos](public/tutorial/pos.png)
+
+2. Piepaid Backoffice (CI4,Ajax,jQuery) terdapat fitur midtrans atau bayar online untuk berlangganan
+
+![backoffice](public/tutorial/backoffice.png)
+
+3. Logistik POS, Order, Stock,Belanja dll (Laravel,Ajax,Jquery)
+
+![logistik](public/tutorial/logistik.png)
+
+4. POS PRS (NextJs, ExpressJs)
+
+![posprs](public/tutorial/posprs.png)
+
+5. Backoffice PRS (Laravel, Inertia, Reactjs)
+
+![backofficeprs](public/tutorial/backofficeprs.png)
+
+6. PRS First App (CI3)
+
+![prsold](public/tutorial/prsold.png)
+
+7. PRS Menu Control
+
+![menu](public/tutorial/menu.png)
+
+8. Handle VPS Server Sampai Sekarang
+
+![server](public/tutorial/server.png)
+
+Semua aplikasi sedang berjalan sampai sekarang
+
+Terima kasih.. Dulu kuliah sambil kerja bagian IT
