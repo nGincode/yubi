@@ -79,48 +79,106 @@ php artisan serve
 # Penggunaan Aplikasi
 
 1. Pastikan aplikasi berjalan seperti berikut :
-   ![home](public/tutorial/home.png)
+
+    ![home](public/tutorial/home.png)
 
 ## Login
 
 1. Klik login pada pojok kanan atas
-   ![home](public/tutorial/home.png)
+
+    ![home](public/tutorial/home.png)
+
 2. Masukan email : superadmin@gmail.com dan Password : superadmin
-   ![login](public/tutorial/login.png)
+
+    ![login](public/tutorial/login.png)
+
 3. Anda berhasil login sebagai admin yang nantinya akan di gunakan untuk control permission akses
-   ![dashboard](public/tutorial/dashboard.png)
-4. untuk logout kilik pada username: superadmin pojok kiri atas di bawah logo yubi
+
+    ![dashboard](public/tutorial/dashboard.png)
+
+4. Untuk logout kilik pada username superadmin pojok kiri atas di bawah logo yubi
+
+    ![logout](public/tutorial/logout.png)
 
 ## Register
 
 1. Klik register pada pojok kanan atas
-   ![home](public/tutorial/home.png)
-2. isi data dengan benar termasuk email aktif
-   ![register](public/tutorial/register.png)
-3. setelah submit akan mendapatkan tampilan seperti ini :
-   ![verfemail](public/tutorial/verfemail.png)
-4. maka anda dapat cek email anda. jika terdapat pengetikan email salah maka dapat isi kolom change your email
-5. maka akan ada pesan di kontak masuk email seperti ini:
-   ![email](public/tutorial/email.png)
-6. maka klik verivy email address
-7. lalu anda berhasil membuat akun
-   ![dasboardnoizin](public/tutorial/dasboardnoizin.png)
-8. disini anda tidak memiliki izin akses aplikasi maka menunggu pihak admin untuk membuat izin anda.
+
+    ![home](public/tutorial/home.png)
+
+2. Isi data dengan benar termasuk email yang aktif
+
+    ![register](public/tutorial/register.png)
+
+3. Setelah submit akan mendapatkan tampilan seperti ini :
+
+    ![verfemail](public/tutorial/verfemail.png)
+
+4. Anda dapat cek email anda. jika terdapat pengetikan email salah maka dapat isi kolom Change Your Email
+
+5. Cek pesan di kontak masuk email :
+
+    ![email](public/tutorial/email.png)
+
+6. Klik verify email address
+
+7. Anda berhasil membuat akun
+
+    ![dasboardnoizin](public/tutorial/dasboardnoizin.png)
+
+8. Disini anda tidak memiliki izin akses menu maka menunggu pihak admin untuk membuat izin anda.
 
 ## Membuat Grups Permission (izin akses)
 
-1. login akun yang memiliki akses group seperti email : superadmin@gmail.com dan Password : superadmin
-2. lalu pergi ke menu account -> group
-   ![group](public/tutorial/group.png)
-3. setelah itu, isi data izin seperti contoh berikut :
-   ![tambahgroup](public/tutorial/tambahgroup.png)
-4. disitu terdapat username yang belum memiliki akses, dan pada data display memungkinkan fungsi untuk menampilkan data secara private, division, store atau keseluruhan
-5. setelah disimpan, maka terdapat menu baru sesuai izin yg dipilih, dan bisa melakukan sesai yg di pilih
-   ![dashcont](public/tutorial/dashcont.png)
-6. lalu pemilik akun disuruh untuk melangkapi data contact
-   ![contact](public/tutorial/contact.png)
-7. setelah disimpan maka akun berhasil di buat dengan sempurna
-   ![success](public/tutorial/success.png)
+1. Login akun yang memiliki akses group seperti email: superadmin@gmail.com dan Password: superadmin
+
+2. Lalu pergi ke menu account -> group
+
+    ![group](public/tutorial/group.png)
+
+3. Isi data izin seperti contoh berikut :
+
+    ![tambahgroup](public/tutorial/tambahgroup.png)
+
+4. Disana terdapat username yang belum memiliki akses pada target users, pilih username yang akan di buat. anda dapat menambahkan lebih dari 1 akun
+
+5. Pada data display memungkinkan fungsi untuk menampilkan data secara private/akun sendiri, division, store atau keseluruhan
+
+6. Setelah disimpan, maka terdapat menu baru sesuai izin yg dipilih, dan bisa melakukan sesai yg di pilih
+
+    ![dashcont](public/tutorial/dashcont.png)
+
+7. Lalu pemilik akun untuk melangkapi data contact
+
+    ![contact](public/tutorial/contact.png)
+
+8. setelah disimpan maka akun berhasil di buat dengan sempurna
+
+    ![success](public/tutorial/success.png)
+
+## Forgot Password
+
+1. Klik login pada pojok kanan atas
+
+    ![home](public/tutorial/home.png)
+
+2. Klik forgot your password?
+
+    ![login](public/tutorial/login.png)
+
+3. Masukkan email yang pernah terdaftar
+
+    ![forgot](public/tutorial/forgot.png)
+
+4. Cek email anda
+
+    ![emailforgot](public/tutorial/emailforgot.png)
+
+5. Klik reset password, lalu akan tampil
+
+    ![emailforgot](public/tutorial/resetpass.png)
+
+6. Isi password baru anda, lalu submit. dan anda akan diarahkan untuk login
 
 ## Store
 
@@ -129,3 +187,16 @@ Store merupakan nama perusahaan
 ## Users
 
 Anda dapat membuat akun tanpa melalui proses verif email
+
+## Semua proses memiliki Edit dan Hapus yang terlatak di bawah form input setiap menu dan pada kolom action
+
+![updategroups](public/tutorial/updategroups.png)
+
+## Akses API
+
+1. Anda harus register dan buat akun dan telah login
+2. Akses url http://localhost:8000/mytoken
+3. Copy token tersebut, Token tersebut merupakan Barear token yng di dugakan untuk akses data API External
+4. Contoh url http://localhost:8000/api/users/all Method POST. Dapat menggunakan postman
+
+![postman](public/tutorial/postman.png)

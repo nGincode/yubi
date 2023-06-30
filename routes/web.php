@@ -35,7 +35,8 @@ Route::get('/', function () {
 
 
 
-Route::get('/test', function () {
+Route::get('/mytoken', function () {
+    return request()->user()->token_api;
 });
 
 
