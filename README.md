@@ -205,7 +205,7 @@ Anda dapat membuat akun tanpa melalui proses verif email
 
 1. Piepaid POS (CI4)
 
-![pos](public/tutorial/pos.png)
+![pospiepiad](public/tutorial/pospiepiad.png)
 
 2. Piepaid Backoffice (CI4,Ajax,jQuery) terdapat fitur midtrans atau bayar online untuk berlangganan
 
