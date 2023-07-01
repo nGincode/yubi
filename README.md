@@ -204,11 +204,11 @@ Anda dapat membuat akun tanpa melalui proses verif email
 
 ## My history
 
-1. Piepaid POS (CI4,Ajax,jQuery) terdapat fitur midtrans atau bayar online untuk berlangganan
+1. Piepaid POS (CI4,Ajax,jQuery) single page app
 
 ![pospiepiad](public/tutorial/pospiepiad.png)
 
-2. Piepaid Backoffice (CI4)
+2. Piepaid Backoffice (CI4) terdapat fitur midtrans atau bayar online untuk berlangganan
 
 ![backoffice](public/tutorial/backoffice.png)
 
@@ -216,7 +216,7 @@ Anda dapat membuat akun tanpa melalui proses verif email
 
 ![logistik](public/tutorial/logistik.png)
 
-4. POS PRS (NextJs, ExpressJs)
+4. POS PRS (NextJs, ExpressJs) single page app
 
 ![posprs](public/tutorial/posprs.png)
 
