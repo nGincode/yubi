@@ -74,7 +74,8 @@ php artisan serve
 ```
 
 2. Buka browser di http://localhost:8000
-   info : npm run dev (development) jika anda ingin mengubah atau jika telah selesai di ubah npm run build untuk file js
+
+info : npm run dev (development) jika anda ingin mengubah atau jika telah selesai di ubah npm run build untuk file js
 
 # Penggunaan Aplikasi
 
@@ -203,11 +204,11 @@ Anda dapat membuat akun tanpa melalui proses verif email
 
 ## My history
 
-1. Piepaid POS (CI4)
+1. Piepaid POS (CI4,Ajax,jQuery) terdapat fitur midtrans atau bayar online untuk berlangganan
 
 ![pospiepiad](public/tutorial/pospiepiad.png)
 
-2. Piepaid Backoffice (CI4,Ajax,jQuery) terdapat fitur midtrans atau bayar online untuk berlangganan
+2. Piepaid Backoffice (CI4)
 
 ![backoffice](public/tutorial/backoffice.png)
 
@@ -236,5 +237,3 @@ Anda dapat membuat akun tanpa melalui proses verif email
 ![server](public/tutorial/server.png)
 
 Semua aplikasi sedang berjalan sampai sekarang
-
-Terima kasih.. Dulu kuliah sambil kerja bagian IT
